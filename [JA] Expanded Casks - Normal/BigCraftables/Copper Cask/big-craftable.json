@@ -1,0 +1,38 @@
+{
+    "Name": "Copper Cask",
+    "Description": "Ages many products at the same time - 10 times the capacity of a normal cask.",
+    "Price": 1,
+    "ProvidesLight": false,
+    "ReserveNextIndex": true,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients":
+		[
+			{
+			    "Object": 388,
+			    "Count": 200
+			},
+			{
+				"Object": 709,
+				"Count": 10
+			},
+			{
+				"Object": 334,
+				"Count": 5
+			}
+		],
+
+		"CanPurchase": true,
+		"PurchaseFrom": "Clint",
+		"PurchasePrice": 150000
+	},
+
+	"CanPurchase": true,
+	"PurchaseFrom": "Clint",
+	"PurchasePrice": 5500,
+	   "NameLocalization":{ //名称定位
+   "zh":"铜陈酿桶"},
+   "DescriptionLocalization":{ //描述定位
+   "zh":"同时陈酿多种产品 - 是普通木桶容量的 10 倍。。"},
+}

@@ -1,0 +1,38 @@
+{
+    "Name": "Iridium Cask",
+    "Description": "Ages many products at the same time - 100 times the capacity of a normal cask.",
+    "Price": 1,
+    "ProvidesLight": false,
+    "ReserveNextIndex": true,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients":
+		[
+			{
+			    "Object": 388,
+			    "Count": 2000
+			},
+			{
+				"Object": 709,
+				"Count": 100
+			},
+			{
+				"Object": 337,
+				"Count": 50
+			}
+		],
+
+		"CanPurchase": true,
+		"PurchaseFrom": "Clint",
+		"PurchasePrice": 1500000
+	},
+
+	"CanPurchase": true,
+	"PurchaseFrom": "Clint",
+	"PurchasePrice": 55000,
+	   "NameLocalization":{ //名称定位
+   "zh":"铱陈酿桶"},
+   "DescriptionLocalization":{ //描述定位
+   "zh":"同时陈酿多种产品 - 是普通木桶容量的 100 倍。。"},
+}

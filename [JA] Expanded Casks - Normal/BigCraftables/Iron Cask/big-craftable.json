@@ -1,0 +1,38 @@
+{
+    "Name": "Iron Cask",
+    "Description": "Ages many products at the same time - 25 times the capacity of a normal cask.",
+    "Price": 1,
+    "ProvidesLight": false,
+    "ReserveNextIndex": true,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients":
+		[
+			{
+			    "Object": 388,
+			    "Count": 500
+			},
+			{
+				"Object": 709,
+				"Count": 25
+			},
+			{
+				"Object": 335,
+				"Count": 12
+			}
+		],
+
+		"CanPurchase": true,
+		"PurchaseFrom": "Clint",
+		"PurchasePrice": 375000
+	},
+
+	"CanPurchase": true,
+	"PurchaseFrom": "Clint",
+	"PurchasePrice": 13750,
+	   "NameLocalization":{ //名称定位
+   "zh":"铁陈酿桶"},
+   "DescriptionLocalization":{ //描述定位
+   "zh":"同时陈酿多种产品 - 是普通木桶容量的 25 倍。。"},
+}

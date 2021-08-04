@@ -1,0 +1,38 @@
+{
+    "Name": "Gold Cask",
+    "Description": "Ages many products at the same time - 50 times the capacity of a normal cask.",
+    "Price": 1,
+    "ProvidesLight": false,
+    "ReserveNextIndex": true,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients":
+		[
+			{
+			    "Object": 388,
+			    "Count": 1000
+			},
+			{
+				"Object": 709,
+				"Count": 50
+			},
+			{
+				"Object": 336,
+				"Count": 25
+			}
+		],
+
+		"CanPurchase": true,
+		"PurchaseFrom": "Clint",
+		"PurchasePrice": 750000
+	},
+
+	"CanPurchase": true,
+	"PurchaseFrom": "Clint",
+	"PurchasePrice": 27500,
+	   "NameLocalization":{ //名称定位
+   "zh":"金陈酿桶"},
+   "DescriptionLocalization":{ //描述定位
+   "zh":"同时陈酿多种产品 - 是普通木桶容量的 50 倍。。"},
+}
